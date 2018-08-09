@@ -1,4 +1,4 @@
-# The-Plague
+# The Plague: Evolved
 The Plague addon for Garry's Mod. Mainly designed for DarkRP but it can be used in any gamemode.
 
 ### Description:

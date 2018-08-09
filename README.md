@@ -1,5 +1,5 @@
 # The-Plague
-The Plague addon for Garry's Mod. Mainly designed for DarkRP but it can be played in any gamemode.
+The Plague addon for Garry's Mod. Mainly designed for DarkRP but it can be used in any gamemode.
 
 ### Description:
 With this addon, you can create an epidemic, infect players and let them spread the infection each other or let them contain themselves. All players will be informed when the infection starts spreading while you watch them panic and seek the help of Plague Doctors/Doctors.

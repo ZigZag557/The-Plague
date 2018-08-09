@@ -21,6 +21,7 @@ PlayerLoadout = function(ply)
 end
 ```
 ### Commands
+
 /startplague x -> x Is the amount of players you would like to infect.
 /stopplague -> Remove all infection.
 

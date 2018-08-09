@@ -160,7 +160,6 @@ end
 
 
 
-
 hook.Add("PostPlayerDeath","thePlague_PlayerDied", function(ply) thePlague.RemoveInfection(ply) end)
 hook.Add("PlayerDisconnected", "thePlague_PlayerDisconnected", function(ply) thePlague.RemoveInfection(ply) end)
 hook.Add("Think","thePlague_think", thePlague.Think)

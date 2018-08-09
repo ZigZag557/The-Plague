@@ -27,7 +27,7 @@ You can find the "settings.lua" file in "lua/plague". Change it to your liking.
 
 
 ### Contact
-If can create addons for you!
+I can create addons for you!
 
 E-Mail: bek_2001@hotmail.com       
 Steam: https://steamcommunity.com/profiles/76561198062191304/

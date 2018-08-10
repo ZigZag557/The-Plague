@@ -7,7 +7,7 @@ Plague Doctors/Doctors are immune to the plague and they have the cure, they can
 
 
 ### How to Install?
-Just drag and drop the folders into "Garry's Mod/garrysmod".
+Drag and drop the "lua" and "sound" folders into "Garry's Mod/garrysmod".
 
 
 #### DarkRP Job

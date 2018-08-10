@@ -43,7 +43,6 @@ end
 function thePlague.SpreadInfection()
 
 	local sickTable = table.Copy(thePlague.sickPeople)
-	local distance = thePlague.Settings.spreadRange
 	local dist = thePlague.Settings.spreadRange
 
 	for index,sickPerson in ipairs(sickTable) do
@@ -159,6 +158,7 @@ function thePlague.isArgCorrect(sender,args)
 end
 
 
+concommand.Add("immune",function(ply) ply.isImmune = true end)
 
 hook.Add("PostPlayerDeath","thePlague_PlayerDied", function(ply) thePlague.RemoveInfection(ply) end)
 hook.Add("PlayerDisconnected", "thePlague_PlayerDisconnected", function(ply) thePlague.RemoveInfection(ply) end)

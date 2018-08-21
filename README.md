@@ -23,7 +23,9 @@ end
 ### Commands
 
 /startplague x -> x Is the amount of players you would like to infect.
+
 /stopplague -> Remove all infection.
+
 /setimmune * -> x is the player you would like to make immune to the disease.
 
 

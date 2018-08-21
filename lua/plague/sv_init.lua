@@ -158,7 +158,6 @@ function thePlague.isArgCorrect(sender,args)
 end
 
 
-concommand.Add("immune",function(ply) ply.isImmune = true end)
 
 hook.Add("PostPlayerDeath","thePlague_PlayerDied", function(ply) thePlague.RemoveInfection(ply) end)
 hook.Add("PlayerDisconnected", "thePlague_PlayerDisconnected", function(ply) thePlague.RemoveInfection(ply) end)
@@ -191,4 +190,32 @@ local commandString = string.Explode(" ", text)
 		return false
 	end
 
+	if commandString[1] == "/setimmune" then
+		if ply:IsAdmin() or ply:IsSuperAdmin() then
+
+			local target = thePlague.FindPlayer(commandString[2])
+
+			if not target then ply:ChatPrint("Player not found!") return false end
+				target.isImmune = true
+				ply:ChatPrint("Target " .. target:Nick() .. " is now immune!")
+		else
+			ply:ChatPrint("You are not an admin!")
+		end
+			return false
+	end
 end)
+
+function thePlague.FindPlayer( name )
+
+local pls = player.GetAll()
+
+	for k = 1, #pls do
+		local v = pls[k]
+
+		if string.find(string.lower(v:Nick()), string.lower(name)) ~= nil then
+           return v
+        end
+	end
+
+	return 
+end

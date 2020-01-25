@@ -2,8 +2,8 @@
 The Plague addon for Garry's Mod. Mainly designed for DarkRP but it can be used in any gamemode.
 
 ### Description:
-With this addon, you can create an epidemic, infect players and let them spread the infection each other or let them contain themselves. All players will be informed when the infection starts spreading while you watch them panic and seek the help of Plague Doctors/Doctors.
-Plague Doctors/Doctors are immune to the plague and they have the cure, they can sense the location of the plague and cure sick people.
+With this addon, you can create an epidemic, infect players and let them spread the infection to each other or let them contain themselves. All players will be informed when the infection starts spreading.
+Plague Doctors are immune to the plague and they have the cure, they can sense the location of the plague and cure sick people.
 
 
 ### How to Install?
@@ -26,13 +26,13 @@ end
 
 /stopplague -> Remove all infection.
 
-/setimmune * -> x is the player you would like to make immune to the disease.
+/setimmune x -> x is the player's name you would like to make immune to the disease.
 
 
 ### Settings
 You can find the "settings.lua" file in "lua/plague". Change it to your liking.
 
 
-### Contact
+### Contact Information
 Steam: https://steamcommunity.com/profiles/76561198062191304/
 

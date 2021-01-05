@@ -208,16 +208,10 @@ local commandString = string.Explode(" ", text)
 end)
 
 function thePlague.FindPlayer( name )
-
-local pls = player.GetAll()
+	local pls = player.GetAll()
 
 	for k = 1, #pls do
 		local v = pls[k]
-
-		if string.find(string.lower(v:Nick()), string.lower(name)) ~= nil then
-           return v
+		if string.find(string.lower(v:Nick()), string.lower(name)) ~= nil then return v end
         end
-	end
-
-	return 
 end

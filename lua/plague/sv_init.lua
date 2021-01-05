@@ -189,7 +189,8 @@ local commandString = string.Explode(" ", text)
 		end
 		return false
 	end
-
+----------------------------------------------------
+-------- Set Immune Command ------------------------	
 	if commandString[1] == "/setimmune" then
 		if ply:IsAdmin() or ply:IsSuperAdmin() then
 
@@ -203,6 +204,7 @@ local commandString = string.Explode(" ", text)
 		end
 			return false
 	end
+----------------------------------------------------
 end)
 
 function thePlague.FindPlayer( name )
